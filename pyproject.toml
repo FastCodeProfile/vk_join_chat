@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vk-join-chat"
+version = "0.1.0"
+description = ""
+authors = ["fastcode <fast.code.auth@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vk_join_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
